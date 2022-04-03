@@ -8,8 +8,8 @@ body {
   align-items: center;
   text-align: center;
   font-style: Light300;
+  color: antiquewhite;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg/1200px-NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg");
-  background-color: #cccccc;
 }
 
 .navbar {
@@ -39,6 +39,12 @@ h1{
   padding: 40px;
   text-decoration:wavy;
   color: rgb(247, 176, 176);
+  background-color: black;
+}
+h2 {
+  background-color: black;
+  color: white;
+  font-style: Thin100;
 }
 
 .buttons {
@@ -55,13 +61,13 @@ h1{
   margin-top: 30px;
   margin-right: 5px;
   margin-left: 5px;
-  font-style: Light300;
+  font-style: Medium500;
 }
 
 .buttons:hover {
   background-color: rgb(153, 123, 123);
   cursor: pointer;
-  font-style: Light300;
+  font-style: Medium500;
 }
   
 li {
