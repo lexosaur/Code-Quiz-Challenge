@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;600;700&display=swap');
+
+body {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  background-color: rgb(62, 92, 73);
+  cursor: pointer;
+  align-items: center;
+  align-items: center;
+  text-align: center;
+  font-style: Light300;
+}
+
+.navbar {
+  background-color: rgb(250, 168, 202);
+  color: rgb(5, 8, 7);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.timer {
+  color: rgb(13, 31, 22);
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+
+}
+
+h1{
+  align-items: center;
+  font-style: Medium500;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px;
+  text-decoration:wavy;
+  color: rgb(247, 176, 176);
+}
+
+.buttons {
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px;
+  width: 100px;
+  color: rgb(75, 71, 71);
+  background-color: rgb(243, 166, 166);
+  border: 1px solid black;
+  border-style: round;
+  margin-top: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-style: Light300;
+}
+
+.buttons:hover {
+  background-color: rgb(153, 123, 123);
+  cursor: pointer;
+  font-style: Light300;
+}
+  
+li {
+  list-style-type: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
+  width: 150px;
+  color: white;
+  background-color: rgb(252, 199, 199);
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
